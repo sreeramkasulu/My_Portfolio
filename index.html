@@ -1,0 +1,229 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="style.css">
+  <title>My Website</title>
+</head>
+
+<body>
+  <!-- Header -->
+  <section id="header">
+    <div class="header container">
+      <div class="nav-bar">
+        <div class="brand">
+          <a href="#hero">
+            <h1><span>S</span>reeram <span>K</span>asulu</h1>
+          </a>
+        </div>
+        <div class="nav-list">
+          <div class="hamburger">
+            <div class="bar"></div>
+          </div>
+          <ul>
+            <li><a href="#hero" data-after="Home">Home</a></li>
+            <li><a href="#about" data-after="About">About</a></li>
+            <li><a href="#projects" data-after="Projects">Projects</a></li>
+            <li><a href="#services" data-after="Services">Services</a></li>
+            <li><a href="#contact" data-after="Contact">Contact</a></li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </section>
+  <!-- End Header -->
+
+
+  <!-- Hero Section  -->
+  <section id="hero">
+    <div class="hero container">
+      <div>
+        <h1>Hello, <span></span></h1>
+        <h1>My Name is <span></span></h1>
+        <h1>Sreeram Kasulu Penke <span></span></h1>
+       
+      </div>
+    </div>
+  </section>
+  <!-- End Hero Section  -->
+  <!-- About Section -->
+  <section id="about">
+    <div class="about container">
+      <div class="col-left">
+        <div class="about-img">
+          <img src="img\kasulu.png" alt="img">
+        </div>
+      </div>
+      <div class="col-right">
+        <h1 class="section-title">About <span>me</span></h1>
+        <h2>
+        <p>I’m a passionate B.Tech student specializing in Computer Science & Engineering, with a focus on Artificial Intelligence and Machine Learning. Currently, I am pursuing my degree at Pragati Engineering College in Andhra Pradesh, where I maintain a CGPA of 9.3/10.
+
+            I have a strong foundation in various programming languages, including Python, Java, and C, complemented by my skills in data management and web development using Oracle, MySQL, HTML, CSS, and JavaScript. My proficiency in tools and platforms such as Git, GitHub, and Google Cloud Platform allows me to work effectively on collaborative projects and cloud-based applications.
+            
+            Throughout my academic journey, I have actively participated in numerous extracurricular activities. As the Coordinator of the MATH Club and the TFUG (TensorFlow) Club, as well as a volunteer with the NSS Club, I have organized workshops and community service projects aimed at enhancing learning and promoting volunteerism among students. These leadership roles have helped me develop essential skills in project management and teamwork.
+            
+            I am excited about the future of technology and its potential to make a positive impact on society. I am always looking for new challenges and opportunities to expand my knowledge and contribute to meaningful projects.</p>
+          </h2>
+      </div>
+    </div>
+  </section>
+  <!-- End About Section -->
+
+  
+
+  <!-- Projects Section -->
+  <section id="projects">
+    <div class="projects container">
+      <div class="projects-header">
+        <h1 class="section-title">Recent <span>Projects</span></h1>
+      </div>
+      <div class="all-projects">
+        <div class="project-item">
+          <div class="project-info">
+            <h1>Project 1</h1>
+            <h2>OTP Generator using Gmail SMTP Server</h2>
+            <p>I developed an OTP (One-Time Password) generator using Python and Gmail’s SMTP server to facilitate secure email-based OTP verification. The project includes:</p>
+            <p>Email Validation: Ensures the entered email belongs to common domains like Gmail, Yahoo, Outlook, etc.</p> 
+            <p>OTP Generation: A 6-digit OTP is randomly generated.</p> 
+            <p>OTP Delivery: The OTP is sent via email using the SMTP server.</p>
+            <p>Resend Option: Users can opt to resend the OTP either to the same or a new email address if verification fails.</p>
+            <p>This project demonstrates secure email handling and Python integration with SMTP for real-world applications.
+              </p>
+          </div>
+          <div class="project-img">
+            <img src="img\otp image.png" alt="img">
+          </div>
+        </div>
+        <div class="project-item">
+          <div class="project-info">
+            <h1>Project 2</h1>
+            <h2>Constitution of India Chatbot</h2>
+            <p>
+              I developed a conversational AI chatbot that answers questions related to the Constitution of India. The chatbot utilizes natural language processing techniques, combining LangChain for document loading and splitting, SentenceTransformers for semantic search, and GPT-Neo for generating human-like responses. The chatbot allows users to interactively query content from the Constitution, providing accurate answers based on relevant sections of the document.</p>
+            <p>Technologies Used:
+            LangChain: Document loading and text processing.
+            SentenceTransformers: Embedding generation for document similarity.
+            GPT-Neo: Language model for text generation.
+            Transformers & PyPDFLoader: For document parsing and question answering.</p>
+           
+          </div>
+          <div class="project-img">
+            <img src="img\constitution.png" alt="img">
+          </div>
+        </div>
+        <div class="project-item">
+          <div class="project-info">
+            <h1>Project 3</h1>
+            <h2>Telugu Character Recognition</h2>
+            <p>I Developed a machine learning-based system for recognizing Telugu characters using deep learning techniques. The project involved training a convolutional neural network (CNN) model on a labeled dataset of Telugu characters to accurately identify and classify them.
+            Key Features:
+              Built a web application interface using Flask to upload and recognize Telugu characters in real-time.
+              Used TensorFlow to create and train a CNN model, achieving high accuracy in character recognition.
+              Integrated a labeled dataset of Telugu characters for model training and evaluation.
+              The final model is deployed for practical use, allowing users to test Telugu character inputs and receive classification results.
+            Technologies Used:
+              Python, Flask, TensorFlow, Keras
+              HTML, CSS, JavaScript for web interface
+              Model deployment via Flask with interactive UI
+              
+
+            
+          </div>
+          <div class="project-img">
+            <img src="img\Telugu character.png" alt="img">
+          </div>
+        </div>
+       
+      
+      </div>
+    </div>
+  </section>
+  <!-- End Projects Section -->
+<!-- Service Section -->
+<section id="services">
+    <div class="services container">
+      <div class="service-top">
+        <h1 class="section-title">Serv<span>i</span>ces</h1>
+        
+      </div>
+      <div class="service-bottom">
+        <div class="service-item">
+          <div class="icon"><img src="img\NSS.png" /></div>
+          <h2>NSS Coordination</h2>
+          <p>As an NSS Coordinator, I led various community service initiatives aimed at making a positive social impact. My responsibilities included organizing and managing events like blood donation camps, environmental cleanups, and awareness programs. I collaborated with students and local organizations, fostering volunteerism and civic responsibility. My role involved team leadership, volunteer coordination, and event execution to address important social causes and contribute to community development.
+
+          </p>
+        </div>
+        <div class="service-item">
+          <div class="icon"><img src="img\Tensorflow.png" /></div>
+          <h2>TFUG Coordinator</h2>
+          <p>As the TFUG Coordinator, I facilitated a community of AI and machine learning enthusiasts through organizing workshops, seminars, and training sessions on TensorFlow and its applications. My role involved creating educational resources, mentoring participants, and fostering collaboration among members. I led discussions on emerging trends in AI/ML, promoting knowledge sharing and skill development, ultimately empowering individuals to enhance their understanding and application of machine learning technologies.</p>
+        </div>
+        <div class="service-item">
+          <div class="icon"><img src="https://logodix.com/logo/349883.png" /></div>
+          <h2>Web Design</h2>
+          <p>As a dedicated web developer, I specialize in full-stack development, utilizing HTML5, CSS, and JavaScript to create responsive web applications with user-friendly interfaces. My skills include building robust solutions with Python (Flask) for seamless backend integration, optimizing front-end designs, and developing server-side logic. Notable projects include the Telugu Character Recognition web application, which integrates a machine learning model, and an AI-Based Chatbot that effectively manages user queries, showcasing my ability to merge web and AI technologies.</p>
+        </div>
+        <div class="service-item">
+          <div class="icon"><img src="img\python_logo-removebg-preview.png" /></div>
+          <h2>Python Programming & Automation</h2>
+          <p>I specialize in Python programming, leveraging its versatility to develop optimized solutions that enhance efficiency and productivity. Whether crafting clean, scalable code for complex applications, building robust backend systems, or creating custom automation scripts, I focus on delivering impactful results. With expertise in frameworks like Flask, I seamlessly integrate Python solutions across various platforms, ensuring peak performance, streamlined workflows, and scalable systems that effectively address real-world challenges.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+  <!-- End Service Section -->
+
+  <!-- Contact Section -->
+  <section id="contact">
+    <div class="contact container">
+      <div>
+        <h1 class="section-title">Contact <span>info</span></h1>
+      </div>
+      <div class="contact-items">
+        <div class="contact-item">
+          <div class="icon"><img src="https://img.icons8.com/bubbles/100/000000/phone.png" /></div>
+          <div class="contact-info">
+            <h1>Phone</h1>
+            <h2>+91 9346644972</h2>
+            
+          </div>
+        </div>
+        <div class="contact-item">
+          <div class="icon"><img src="https://img.icons8.com/bubbles/100/000000/new-post.png" /></div>
+          <div class="contact-info">
+            <h1>Email</h1>
+            <h2>sriramkasulu@gmail.com</h2>
+           
+          </div>
+        </div>
+        <div class="contact-item">
+          <div class="icon"><img src="https://img.icons8.com/bubbles/100/000000/map-marker.png" /></div>
+          <div class="contact-info">
+            <h1>Address</h1>
+            <h2>Draksharamam, Konaseema District, Andhra Pradesh</h2>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <!-- End Contact Section -->
+
+  <!-- Footer -->
+  <section id="footer">
+    <div class="footer container">
+      <div class="brand">
+        <h1><span>S</span>reeram<span>K</span>asulu</h1>
+      </div>
+     
+      <p>Copyright © 2024 Sreeram. All rights reserved</p>
+    </div>
+  </section>
+  <!-- End Footer -->
+  <script src="./app.js"></script>
+</body>
+
+</html>
